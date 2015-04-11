@@ -9,8 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *label_MainValue;
-@property (weak, nonatomic) IBOutlet UILabel *label_Price;
-@property (weak, nonatomic) IBOutlet UITextView *textView_Discr;
+@property (strong, nonatomic) NSString *string_MainValue;
+@property (strong, nonatomic) NSString *string_Price;
+@property (strong, nonatomic) NSString *string_Discr;
+
+@property (strong, nonatomic) IBOutlet UILabel *label_MainValue;
+@property (strong, nonatomic) IBOutlet UILabel *label_Price;
+@property (strong, nonatomic) IBOutlet UITextView *textView_Discr;
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView_DetilItem;
 
 @end

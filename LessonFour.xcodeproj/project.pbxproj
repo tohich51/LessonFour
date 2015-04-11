@@ -13,6 +13,10 @@
 		552CE4C01AD954B100A9C3C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552CE4BF1AD954B100A9C3C1 /* QuartzCore.framework */; };
 		552CE4C31AD9551500A9C3C1 /* Auto.m in Sources */ = {isa = PBXBuildFile; fileRef = 552CE4C21AD9551500A9C3C1 /* Auto.m */; };
 		552CE4CA1AD96E4F00A9C3C1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552CE4C91AD96E4F00A9C3C1 /* DetailViewController.m */; };
+		552CE4CF1AD99D5B00A9C3C1 /* Flat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 552CE4CB1AD99D5B00A9C3C1 /* Flat.jpg */; };
+		552CE4D01AD99D5B00A9C3C1 /* Car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 552CE4CC1AD99D5B00A9C3C1 /* Car.jpg */; };
+		552CE4D11AD99D5B00A9C3C1 /* Mobile Phone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 552CE4CD1AD99D5B00A9C3C1 /* Mobile Phone.jpg */; };
+		552CE4D21AD99D5B00A9C3C1 /* TV.png in Resources */ = {isa = PBXBuildFile; fileRef = 552CE4CE1AD99D5B00A9C3C1 /* TV.png */; };
 		5586CC701AD83B0C00D30F81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586CC6F1AD83B0C00D30F81 /* main.m */; };
 		5586CC731AD83B0C00D30F81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586CC721AD83B0C00D30F81 /* AppDelegate.m */; };
 		5586CC761AD83B0C00D30F81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586CC751AD83B0C00D30F81 /* ViewController.m */; };
@@ -41,6 +45,10 @@
 		552CE4C21AD9551500A9C3C1 /* Auto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Auto.m; sourceTree = "<group>"; };
 		552CE4C81AD96E4F00A9C3C1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		552CE4C91AD96E4F00A9C3C1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		552CE4CB1AD99D5B00A9C3C1 /* Flat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flat.jpg; sourceTree = "<group>"; };
+		552CE4CC1AD99D5B00A9C3C1 /* Car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car.jpg; sourceTree = "<group>"; };
+		552CE4CD1AD99D5B00A9C3C1 /* Mobile Phone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mobile Phone.jpg"; sourceTree = "<group>"; };
+		552CE4CE1AD99D5B00A9C3C1 /* TV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TV.png; sourceTree = "<group>"; };
 		5586CC6A1AD83B0C00D30F81 /* LessonFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5586CC6E1AD83B0C00D30F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5586CC6F1AD83B0C00D30F81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +98,10 @@
 		5586CC611AD83B0C00D30F81 = {
 			isa = PBXGroup;
 			children = (
+				552CE4CB1AD99D5B00A9C3C1 /* Flat.jpg */,
+				552CE4CC1AD99D5B00A9C3C1 /* Car.jpg */,
+				552CE4CD1AD99D5B00A9C3C1 /* Mobile Phone.jpg */,
+				552CE4CE1AD99D5B00A9C3C1 /* TV.png */,
 				552CE4C41AD96DE200A9C3C1 /* Detail View */,
 				552CE4C11AD9551500A9C3C1 /* Auto.h */,
 				552CE4C21AD9551500A9C3C1 /* Auto.m */,
@@ -233,9 +245,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552CE4D21AD99D5B00A9C3C1 /* TV.png in Resources */,
 				5586CC791AD83B0C00D30F81 /* Main.storyboard in Resources */,
 				5586CC7E1AD83B0C00D30F81 /* LaunchScreen.xib in Resources */,
 				5586CC7B1AD83B0C00D30F81 /* Images.xcassets in Resources */,
+				552CE4D01AD99D5B00A9C3C1 /* Car.jpg in Resources */,
+				552CE4CF1AD99D5B00A9C3C1 /* Flat.jpg in Resources */,
+				552CE4D11AD99D5B00A9C3C1 /* Mobile Phone.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

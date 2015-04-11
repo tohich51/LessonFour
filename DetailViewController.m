@@ -17,7 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    self.label_MainValue.text = self.string_MainValue;
+    self.label_Price.text=[NSString stringWithFormat:@"Price - %@",self.string_Price ];
+    self.textView_Discr.text= self.string_Discr;
+    //заполняем контейнер с картинками
+    if ([self.string_MainValue isEqualToString:@"TV"]) {
+        self.imageView_DetilItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@",self.string_MainValue]];
+    }
+    else{
+        self.imageView_DetilItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@.jpg",self.string_MainValue]];
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {
