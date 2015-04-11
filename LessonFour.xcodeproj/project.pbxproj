@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552CE4BA1AD9549400A9C3C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552CE4B91AD9549400A9C3C1 /* UIKit.framework */; };
+		552CE4BC1AD9549E00A9C3C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552CE4BB1AD9549E00A9C3C1 /* Foundation.framework */; };
+		552CE4BE1AD954A700A9C3C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552CE4BD1AD954A700A9C3C1 /* CoreGraphics.framework */; };
+		552CE4C01AD954B100A9C3C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552CE4BF1AD954B100A9C3C1 /* QuartzCore.framework */; };
+		552CE4C31AD9551500A9C3C1 /* Auto.m in Sources */ = {isa = PBXBuildFile; fileRef = 552CE4C21AD9551500A9C3C1 /* Auto.m */; };
+		552CE4CA1AD96E4F00A9C3C1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552CE4C91AD96E4F00A9C3C1 /* DetailViewController.m */; };
 		5586CC701AD83B0C00D30F81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586CC6F1AD83B0C00D30F81 /* main.m */; };
 		5586CC731AD83B0C00D30F81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586CC721AD83B0C00D30F81 /* AppDelegate.m */; };
 		5586CC761AD83B0C00D30F81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586CC751AD83B0C00D30F81 /* ViewController.m */; };
@@ -27,6 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		552CE4B91AD9549400A9C3C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		552CE4BB1AD9549E00A9C3C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		552CE4BD1AD954A700A9C3C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		552CE4BF1AD954B100A9C3C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		552CE4C11AD9551500A9C3C1 /* Auto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Auto.h; sourceTree = "<group>"; };
+		552CE4C21AD9551500A9C3C1 /* Auto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Auto.m; sourceTree = "<group>"; };
+		552CE4C81AD96E4F00A9C3C1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		552CE4C91AD96E4F00A9C3C1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5586CC6A1AD83B0C00D30F81 /* LessonFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5586CC6E1AD83B0C00D30F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5586CC6F1AD83B0C00D30F81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552CE4C01AD954B100A9C3C1 /* QuartzCore.framework in Frameworks */,
+				552CE4BE1AD954A700A9C3C1 /* CoreGraphics.framework in Frameworks */,
+				552CE4BC1AD9549E00A9C3C1 /* Foundation.framework in Frameworks */,
+				552CE4BA1AD9549400A9C3C1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +78,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		552CE4C41AD96DE200A9C3C1 /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				552CE4C81AD96E4F00A9C3C1 /* DetailViewController.h */,
+				552CE4C91AD96E4F00A9C3C1 /* DetailViewController.m */,
+			);
+			name = "Detail View";
+			sourceTree = "<group>";
+		};
 		5586CC611AD83B0C00D30F81 = {
 			isa = PBXGroup;
 			children = (
+				552CE4C41AD96DE200A9C3C1 /* Detail View */,
+				552CE4C11AD9551500A9C3C1 /* Auto.h */,
+				552CE4C21AD9551500A9C3C1 /* Auto.m */,
+				552CE4BF1AD954B100A9C3C1 /* QuartzCore.framework */,
+				552CE4BD1AD954A700A9C3C1 /* CoreGraphics.framework */,
+				552CE4BB1AD9549E00A9C3C1 /* Foundation.framework */,
+				552CE4B91AD9549400A9C3C1 /* UIKit.framework */,
 				5586CC6C1AD83B0C00D30F81 /* LessonFour */,
 				5586CC861AD83B0C00D30F81 /* LessonFourTests */,
 				5586CC6B1AD83B0C00D30F81 /* Products */,
@@ -219,8 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552CE4CA1AD96E4F00A9C3C1 /* DetailViewController.m in Sources */,
 				5586CC761AD83B0C00D30F81 /* ViewController.m in Sources */,
 				5586CC731AD83B0C00D30F81 /* AppDelegate.m in Sources */,
+				552CE4C31AD9551500A9C3C1 /* Auto.m in Sources */,
 				5586CC701AD83B0C00D30F81 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +452,7 @@
 				5586CC8F1AD83B0C00D30F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5586CC901AD83B0C00D30F81 /* Build configuration list for PBXNativeTarget "LessonFourTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +461,7 @@
 				5586CC921AD83B0C00D30F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

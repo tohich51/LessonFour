@@ -1,14 +1,14 @@
 //
 //  ViewController.h
-//  LessonFour
+//  LessonThree
 //
-//  Created by oscar on 10/04/15.
+//  Created by oscar on 04/04/15.
 //  Copyright (c) 2015 oscar. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 
 @end
